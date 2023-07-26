@@ -5,10 +5,10 @@ import javax.swing.DefaultBoundedRangeModel;
 interface Bike {
 	void show();
 	static void showAll() {
-		System.out.println("This is Bike Company.");
+		System.out.println("---- These are Bike Companies. ----");
 	}
 	default void tagline() {
-		System.out.println("Try it once");
+		System.out.println("Try it once!");
 	}
 }
 
